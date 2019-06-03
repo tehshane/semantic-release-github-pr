@@ -1,4 +1,4 @@
-const { gitHead: getGitHead } = require('semantic-release/lib/git');
+const { getGitHead } = require('semantic-release/lib/git');
 
 /**
  * Plugin wrapper that ensures that `nextRelease.gitHead` is available.
